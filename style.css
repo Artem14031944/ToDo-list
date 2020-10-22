@@ -1,0 +1,122 @@
+  body {
+    margin: 0;
+    width: 100%;
+    background: honeydew;
+    overflow-x: hidden;  
+    user-select: none;
+  }
+  ul {
+    list-style-type: none;
+  }
+  button:hover {
+    color: black;
+    background: chartreuse;
+  }
+
+  h1 {
+    font-family: cursive;
+    color: blue;
+  }
+  h4 {
+    font-family: cursive;
+    color: blue;
+    margin: 0;
+  }
+  li {
+    /* border-top: 1px solid black; */
+    border-bottom: 1px solid black;
+    margin: 12px 0;
+    padding: 12px 0;
+    width: 90%;
+  }
+  .cont {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .tabs-header {
+    display: flex;
+  }
+  
+  .tab {
+    border: 2px solid #8BFF32;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: cursive;
+  }
+  
+  .tab:hover {
+    background-color: #DFFF61;
+  }
+  
+  .tab.active {
+    background-color: #4672BA;
+  }
+  
+  .tab + .tab {
+    margin-left: 10px;
+  }
+  
+  .tab-panel {
+    border: 2px solid #00c4ff;
+    display: none;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 12px;
+  }
+  
+  .tab-panel.active {
+    display: block;
+  }
+  .Todo {
+    margin: 0;
+    color : #110f96;
+  }
+  .input {
+    margin: 20px 0;
+  }
+  .redart {
+    color: black;
+    background: #4672BA;
+    border-radius: 8px;
+    margin-left: 8px;
+    float: right;
+    position: relative;
+    border: 0;
+    font-family: cursive;
+    cursor: pointer;
+  }
+  .redart:hover {
+    background-color: #DFFF61;
+    color: black;
+  }
+  .labelFor {
+    font-family: cursive;
+  }
+  .addTask {
+    cursor: pointer;
+    color: black;
+    background: #DFFF61;
+    border-radius: 5px;
+    font-family: cursive;
+    border: 0;
+  }
+  .addTask:hover {
+    color: black;
+    background: chartreuse;
+  }
+  .delete {
+    cursor: pointer;
+    color: black;
+    background: #ffce61;
+    border-radius: 5px;
+    font-family: cursive;
+    border: 0;
+  }
+  .delete:hover {
+    color: black;
+    background: red;
+  }
+  
+  

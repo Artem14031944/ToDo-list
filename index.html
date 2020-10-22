@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ToDo List</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+      
+        <div class="cont">
+            <div class="Todo">
+                <h1>ToDo List:</h1>
+            </div>
+            <div class="tabs-wrapper">
+                <div class="tabs-header">
+                    <div class="tab" data-target="one" tabindex = '1'>Текущие задачи</div>
+                    <div class="tab" data-target="two"  tabindex = '2'>Выполненные задачи</div>
+                    <div class="tab" data-target="three"  tabindex = '3'>Удалённые задачи</div>
+                  </div>
+        
+                  <div class="tabs-panels">
+                       
+                    <div class="input">
+                        <input type="text" class="addInput" value="">
+                        <button class="addTask">Добавить задание</button>
+                        <button class="delete" >Очистить</button>
+                   </div>
+    
+                    <div class="tab-panel one">
+                        <h4>Задачи:</h4>
+                        <ul class="todo"></ul>
+                    </div>
+                
+                    <div class="tab-panel two">
+                        <h4>Задачи:</h4>
+                        <ul class="todoDone"></ul>
+                    </div>
+
+                    <div class="tab-panel three">
+                        <h4>Задачи:</h4>
+                        <ul class="todoDelet"></ul>
+                    </div>
+
+                  </div>
+              </div>
+        
+            </div>
+                     
+        
+      <script src="app.js"></script>
+      <script src="index.js"></script>
+      <script src="delet.js"></script>
+    </body>
+</html>
